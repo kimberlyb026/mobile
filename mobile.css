@@ -20,9 +20,26 @@ padding:15px;
 	position: static;
 }
 
+#knop{
+	width: 50px:
+	background-color:grey;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+#menu{
+	padding:0;
+	list-style-type: none;
+	height: 0;
+	overflow: hidden;
+
+
+}
+
 .icon{
 	height:1rem;
-	position: relative;
+	position:relative;
 	right:9rem;
 	top:4rem;
 	height: 1.4rem;
@@ -44,7 +61,17 @@ h1{
 margin-left: 3rem;
 }
 
-@media () {
 
 
+/*
+@media(min-width:768px){
+#knop{
+	display: none;
 }
+  #menu> li{
+  	display: inline-block;
+  }
+  #menu{
+  	height:auto !important;
+  }
+}*/
