@@ -1,3 +1,50 @@
-body{
-	background-color: aqua;
+html{
+	background-color: white;
+	font-size: 24px;
+	width: 100%;
+	font-family: 'Archivo', sans-serif;
+}
+
+/*body{
+	
+}
+*/img{
+width:100%;
+padding:15px;
+
+}
+
+.border{
+	padding: 1.3rem;
+	background-color: gold;
+	position: static;
+}
+
+.icon{
+	height:1rem;
+	position: relative;
+	right:9rem;
+	top:4rem;
+	height: 1.4rem;
+
+}
+
+.border1{
+	padding: 0.5rem;
+	background-color: gold;
+	margin-left: 1rem;
+	margin-right: 2rem;
+}
+
+span{
+	color:blue;
+}
+
+h1{
+margin-left: 3rem;
+}
+
+@media () {
+
+
 }
