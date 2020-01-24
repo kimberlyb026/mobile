@@ -9,8 +9,9 @@ html{
 	
 }
 */img{
-width:100%;
+width:90%;
 padding:15px;
+
 
 }
 
@@ -20,26 +21,17 @@ padding:15px;
 	position: static;
 }
 
-#knop{
-	width: 50px:
-	background-color:grey;
-	text-align: center;
-	cursor: pointer;
 
+.bozemeneer{
+width:100%;
+padding:15px;
 }
 
-#menu{
-	padding:0;
-	list-style-type: none;
-	height: 0;
-	overflow: hidden;
 
-
-}
 
 .icon{
-	height:1rem;
-	position:relative;
+/*	height:1rem;
+*/	position:relative;
 	right:9rem;
 	top:4rem;
 	height: 1.4rem;
@@ -61,17 +53,41 @@ h1{
 margin-left: 3rem;
 }
 
-
-
-/*
-@media(min-width:768px){
-#knop{
-	display: none;
+.contact{
+/*height:1rem;
+	position:relative;
+	right:9rem;
+	top:4rem;*/
+	height: 1.4rem;
+	width: 1.4rem;
+color:black;
 }
-  #menu> li{
-  	display: inline-block;
-  }
-  #menu{
-  	height:auto !important;
-  }
-}*/
+.social{
+	/*height:1rem;*/
+	position:relative;
+	right:9rem;
+	top:4rem;
+	height: 1.4rem;
+
+}
+
+@media(min-width: 768px){
+html{
+	background-color: white;
+	font-size: 24px;
+	width: 100%;
+	font-family: 'Archivo', sans-serif;
+}
+img{
+width:50%;
+padding:15px;
+
+}
+.bozemeneer{
+width:80%;
+padding:15px;
+}
+
+
+}
+
